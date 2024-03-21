@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Nettside</title>
+    <link href="design.css" rel="stylesheet" media="all">
+
+</head>
+<body>
+    <div id="container">
+        <nav>
+                <a onclick="renderlist('HTML')"id="buttonHTML">HTML</a>
+                <a onclick="renderlist('CSS')"id="buttonCSS">CSS</a>
+                <a onclick="renderlist('JavaScript')"id="buttonJS">JavaScript</a>
+                <a onclick="renderlist('React')"id="buttonREACT">React</a>
+                <a onclick="renderlist('Sanity and headless CMS')"id="buttonCMS">Sanity and Headless CMS</a>
+        </nav>
+    </div>
+    <main>
+        <article>
+            <h2 id="Tittelvis"></h2>
+            <p id="Tittleteks"></p>
+            <ul id="Listevis"></ul>
+        </article>
+    </main>
+    
+    <script src="content.js"></script>
+    <script src="ressurser.js"></script>
+</body>
+</html>
